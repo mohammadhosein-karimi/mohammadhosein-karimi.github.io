@@ -11,13 +11,13 @@
     <title>نوین چرم</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid  d-md-none">
         <div class="row">
-            <div class="col-12">
-                <nav class="navbar d-md-none border border-start-0 border-end-0 border-top-0 ">
+            <div class="col-sm-12 col-md-12">
+                <nav class="navbar border border-start-0 border-end-0 border-top-0 ">
                     <div class="container-fluid ">
                                     <ul class="d-flex px-0">
-                                      <li class=" list-unstyled mt-sm-2">
+                                      <li class=" list-unstyled mt-sm-2 ">
 
                                         <a href="#" >
                                           <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -131,12 +131,82 @@
                 </div>
             </div>
         </div>
+
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+          <div class="row"  id="header">
+            <div class="col-md-4 background-header">
+
+              <ul class="list-unstyled">
+              <li class="d-inline-block px-1">
+                <a href="#">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <i class="bi bi-basket3-fill"></i>
+              
+              </button>
+              
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+
+                    </button>
+                  </div>
+                  <div class="offcanvas-body">
+                    ...
+                  </div>
+                </div>
+              </a>
+            </li>
+
+
+              <li class="d-inline-block">
+                <a href="#">
+                <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <i class="bi bi-search"></i></button>
+
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  ...
+                </div>
+              </div>
+            </a>
+          </li>
+              <li class="d-inline-block  " ><a href="#" class="text-decoration-none link-secondary">ورود/ عضویت</a></li>
+            </ul>
+          </div>
+
+            <div class="col-md-4 background-header text-center">
+              <a href="index.html"><img src="images/logo.svg" alt="image not found"></a>
+              
+            </div>
+
+
+            
+            <div class="col-md-4 col-lg-4 col-xl-4 background-header">
+
+              <ul class="float-start  mb-0 h-100 ">
+
+              <li class="d-inline-block p-2">
+                <a href="#" class="link-secondary"><i class="bi bi-people-fill"><span class="text-decoration-none d-xl-inline-block d-md-none mx-1">باشگاه مشتریان</span></i></a>
+            </li>
+
+            <li class=" d-inline-block border border-secondary border-top-0 border-bottom-0 border-start-0 fs-3 p-2   d-lg-inline-block d-md-none mx-1"><i class="bi bi-house-door-fill"></i></li>
+
+
+              <li class="d-inline-block border border-secondary border-top-0 border-bottom-0 fs-3 p-2">
+                <a href="#" class="text-decoration-none link-secondary mx-1 text-uppercase fs-6">faq</a></li>
+                
+              <li class="d-inline-block "><a href="#" class="link-secondary p-2"><i class="bi bi-geo-alt-fill"></i>
+              </a>
+            </li>
+            </ul>
+          </div>
           </div>
         </div>
+        
     </body>
 </html>
