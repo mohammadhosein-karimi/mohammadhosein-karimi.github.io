@@ -8,24 +8,35 @@
             top: 5rem;
             right: 5rem;
             left: 5rem;
+            margin: -10px;
+            padding: 5px;
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom:none !important ;
         }
-        #megamenu ul>li{
-            position: relative;
+        #megamenu ul li {
+
+            border-bottom:none !important ;
         }
-        #omenu-offcanvas ul{
-           
-            background-color: white !important;
+
+        #menu-offcanvas ul{
+            position: absolute;
+            
         }
         #menu-offcanvas ul li{
-            position: ;
-            width:80vw;
+         
+            position: relative;
+            right: 5rem;
+            width: 100vw;
+        }
 
-        }
         #menu-offcanvas ul li a {
+
+            background-color: #ffffff !important;
            
-            background-color: #eeeeee !important;
-          
         }
+
+
         #menu-offcanvas li a  {
            background-color: white;
            color: black !important;
