@@ -12,13 +12,23 @@
         #megamenu ul>li{
             position: relative;
         }
-        #menu-offcanvas ul li a {
-            color: white !important;
-
+        #omenu-offcanvas ul{
+           
+            background-color: white !important;
+        }
+        #menu-offcanvas ul li{
+            position: ;
+            width:80vw;
 
         }
+        #menu-offcanvas ul li a {
+           
+            background-color: #eeeeee !important;
+          
+        }
         #menu-offcanvas li a  {
-               color: rgb(0, 0, 0)!important;
+           background-color: white;
+           color: black !important;
         }
 }
 
@@ -28,10 +38,16 @@
     #header{
         display: none;
     }
-    #menu-offcanvas ul{
-        background-color: #000000;
-
-    }
+    #menu-offcanvas li a  {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255) !important;
+     }
+     #offcanvas-body1{
+        background-color: black;
+     }
+     #offcanvas-body1 ul{
+        background-color: black;
+     }
     ul li{
         font-size: 12px;
     }
