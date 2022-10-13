@@ -2,10 +2,35 @@
     background-color: #eeeeee;
 }
 
+@media all and (min-width:768px){
+        #megamenu{
+            position: absolute;
+            top: 5rem;
+            right: 5rem;
+            left: 5rem;
+        }
+        #megamenu ul>li{
+            position: relative;
+        }
+        #menu-offcanvas ul li a {
+            color: white !important;
+
+
+        }
+        #menu-offcanvas li a  {
+               color: rgb(0, 0, 0)!important;
+        }
+}
+
+
 
 @media all and (min-width:0px) and (max-width:767px){
     #header{
         display: none;
+    }
+    #menu-offcanvas ul{
+        background-color: #000000;
+
     }
     ul li{
         font-size: 12px;
