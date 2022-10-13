@@ -10,4 +10,7 @@
     #header{
         display: none;
     }
+    ul li{
+        font-size: 12px;
+    }
 }
