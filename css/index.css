@@ -1,6 +1,10 @@
 .background-header{
     background-color: #eeeeee;
 }
+.redius-reduction{
+    font-size: 12px;
+    padding: 6px;
+}
 
 @media all and (min-width:768px){
         #megamenu{
@@ -47,9 +51,50 @@
             height: 40px;
             border-radius: 10px;
         }
+        .custom-details-slider-reduction{
+            text-decoration: overline;
+        }
 }
 
+@media all and (min-width:0px) and (max-width:575px){
+     .card-body-custom{
+            font-size: 12px;
+            font-weight: bold;
+     }
+}
+@media all and (min-width:576px) and (max-width:767px){
+    .card-body-custom{
+           font-size: 10px;
+           font-weight: bold;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px){
+    .card-body-custom{
+        font-size: 10px;
+        font-weight: bold;
+ }
+}
 
+@media all and (min-width:992px) and (max-width:1199px){
+    .card-body-custom{
+        font-size: 14px;
+        font-weight: bold;
+ }
+}
+
+@media all and (min-width:1200px) and (max-width:1399px){
+    .card-body-custom{
+        font-size: 11px;
+        font-weight: bold;
+ }
+}
+
+@media all and (min-width:1400px){
+    .card-body-custom{
+        font-size: 12px;
+        font-weight: bold;
+ }
+}
 
 @media all and (min-width:0px) and (max-width:767px){
     #header{
@@ -65,6 +110,7 @@
      #offcanvas-body1 ul{
         background-color: black;
      }
+
     ul li{
         font-size: 12px;
     }
