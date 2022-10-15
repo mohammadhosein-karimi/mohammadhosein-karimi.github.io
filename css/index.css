@@ -6,6 +6,7 @@
     padding: 6px;
 }
 
+
 @media all and (min-width:768px){
         #megamenu{
             position: absolute;
@@ -61,11 +62,19 @@
             font-size: 12px;
             font-weight: bold;
      }
+     .custom-margin-link{
+        margin-left: 12px;
+    }
+     
 }
 @media all and (min-width:576px) and (max-width:767px){
     .card-body-custom{
            font-size: 10px;
            font-weight: bold;
+    }
+    
+    .custom-margin-link{
+        margin-left: 12px;
     }
 }
 @media all and (min-width:768px) and (max-width:991px){
@@ -73,6 +82,10 @@
         font-size: 10px;
         font-weight: bold;
  }
+ 
+ .custom-margin-link{
+    margin-left: 12px;
+}
 }
 
 @media all and (min-width:992px) and (max-width:1199px){
@@ -80,6 +93,9 @@
         font-size: 14px;
         font-weight: bold;
  }
+ .custom-margin-link{
+    margin-left: 12px;
+}
 }
 
 @media all and (min-width:1200px) and (max-width:1399px){
@@ -90,17 +106,23 @@
     .col-xl-half{
         width:19.725%;
     }
+    .custom-margin-link{
+        margin-left: 29px;
+    }
 }
 
 @media all and (min-width:1400px){
-    .card-body-custom{
-        font-size: 12px;
-        font-weight: bold;
+.card-body-custom{
+    font-size: 12px;
+    font-weight: bold;
  }
  
- .col-xl-half{
+.col-xl-half{
     width:19.725%;
  }
+ .custom-margin-link{
+    margin-left: 33px;
+}
 }
 
 @media all and (min-width:0px) and (max-width:767px){
