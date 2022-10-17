@@ -23,6 +23,12 @@
 .custom-footer-border-blog-card{
     border: 1px solid #D1D2D4;
 }
+.font-size-footer-heading{
+    font-size: 14px;
+}
+.font-size-footer{
+    font-size: 12px;
+}
 @media all and (min-width:768px){
         #megamenu{
             position: absolute;
