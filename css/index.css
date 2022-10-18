@@ -25,6 +25,8 @@
 }
 .font-size-footer-heading{
     font-size: 14px;
+    font-weight: 600;
+    color: #58595B;
 }
 .font-size-normal-text{
     font-size: 12px;
@@ -37,6 +39,10 @@
     color: #6a6b6d;
     font-size: 14px;
 }
+.color-text-custom-2{
+    color: #58595B;
+    font-size: 12px;
+}
 .custom-font-footer{
     width: 100px;
     height: 60px;
@@ -48,8 +54,26 @@
     padding-top: 50px;
     padding-bottom: 0px;
 }
+
+.custom-padding-slider-blog{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .padding-footer-searchbar{
     padding: 20px 40px 20px 40px;
+}
+.date-slider{
+    background: #bfbfbf;
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    font-size: 12px;
+    color: white;
+}
+.day-slider{
+    font-size: 38px;
 }
 
 @media all and (min-width:768px){
