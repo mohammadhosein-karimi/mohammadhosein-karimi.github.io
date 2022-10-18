@@ -29,6 +29,25 @@
 .font-size-normal-text{
     font-size: 12px;
 }
+.background-color-custom{
+    background-color: #ededed;
+}
+
+.color-text-custom{
+    color: #6a6b6d;
+    font-size: 14px;
+}
+.custom-font-footer{
+    width: 100px;
+    height: 60px;
+    border: 1px solid #ededed;
+}
+.custom-padding{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
 @media all and (min-width:768px){
         #megamenu{
             position: absolute;
@@ -148,6 +167,12 @@
 }
 }
 @media all and (min-width:768px) and (max-width:991px){
+    
+.padding-menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
     .card-body-custom{
         font-size: 10px;
         font-weight: bold;
@@ -182,6 +207,12 @@
 }
 
 @media all and (min-width:992px) and (max-width:1199px){
+       
+.padding-menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
     .card-body-custom{
         font-size: 14px;
         font-weight: bold;
@@ -215,6 +246,12 @@
 }
 
 @media all and (min-width:1200px) and (max-width:1399px){
+       
+.padding-menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
     .card-body-custom{
         font-size: 11px;
         font-weight: bold;
@@ -252,6 +289,12 @@
 }
 
 @media all and (min-width:1400px){
+       
+.padding-menu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
 .card-body-custom{
     font-size: 12px;
     font-weight: bold;
