@@ -21,16 +21,14 @@
 
   <!-- nav bar xsm sm  -->
 
-  <div class="container-fluid background-color-custom">
+  <div class="container-fluid background-color-custom px-4 ">
     <div class="row m-0">
-      <div class="col-2 col-md-4 col-lg-4 col-xl-4">
-        <ul class="d-flex">
-          <li class="list-unstyled">
-            <a href="#">
+      <div class="col-4 col-md-4 col-lg-4 col-xl-4">
+        <div>
+            <a class="text-decoration-none" href="#">
               <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"aria-controls="offcanvasRight">
                 <i class="bi bi-basket3-fill"></i>
               </button>
-
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
@@ -42,13 +40,10 @@
                 </div>
               </div>
             </a>
-          </li>
-
-          <li class="list-unstyled ">
-            <a href="#">
-              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight">
-                <i class="bi bi-search"></i></button>
+              <a class="text-decoration-none" href="#">
+              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"aria-controls="offcanvasRight">
+                <i class="bi bi-search"></i>
+              </button>
 
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel">
@@ -61,16 +56,16 @@
                 </div>
               </div>
             </a>
-          </li>
-        </ul>
+        </div>
+        
       </div>
 
-      <div class="col-8 col-sm-8 col-md-4 col-lg-4 col-xl-4 text-center">
+      <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
         <img src="images/logo.svg" alt="" class="">
       </div>
-      <div class="col-2 col-sm-2 d-md-none">
+      <div class="col-4 col-sm-4 d-md-none ">
         
-<nav class="navbar navex  d-md-none  text-white">
+<nav class="navbar d-md-none text-white d-block float-start ">
   <div class="container-fluid">
 
     <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -79,15 +74,64 @@
 
     <div class="offcanvas offcanvas-end text-bg-dark w-100" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
-        
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3 p-0">
+        <div class="">
+            <a class="text-decoration-none " href="#">
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"aria-controls="offcanvasRight">
+                <i class="bi bi-basket3-fill text-white"></i>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                  </button>
+                </div>
+                <div class="offcanvas-body">
+                  ...
+                </div>
+              </div>
+            </a>
+              <a class="text-decoration-none link-dark" href="#">
+              <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"aria-controls="offcanvasRight">
+                <i class="bi bi-search text-white"></i>
+              </button>
+
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  ...
+                </div>
+              </div>
+            </a>
+        </div>
+          </div>
+              <div class="col-6 text-center">
+                <a href=""><img class="img-fluid" src="images/logo.svg" alt=""></a>
+              </div>
+
+        <div class="col-3">
+          <button type="button" class="btn-close btn-close-white float-start" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+    </div>
+
       <div class="offcanvas-body">
-        
+
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item ">
+        <li class=" border border-1 border-white  rounded-1 font-size-normal-text p-2 mb-3" style="width:90px"> 
+          <a class="text-decoration-none text-white" href="">ورود/عضویت</a>
+        </li>
+          
           <a class="nav-link text-white" aria-current="page" href="#">جدید ترین ها</a>
         </li>
+
 
         <li class="nav-item dropdown d-lg-none d-sm-block">
           <a class="nav-link dropdown-toggle text-white bg-dark" data-bs-toggle="dropdown"  data-bs-auto-close="outside" href="#">آقایان</a>
@@ -208,95 +252,88 @@
         </li>
       </ul>
     </div>
+    <div class="bg-secondary p-3">
+      <a href="#" class="text-white link-secondary text-decoration-none ">باشگاه مشتریان</i></a>
+      <a href="#" class="text-white text-decoration-none link-secondary mx-1 text-uppercase fs-6 d-block float-start">faq</a>      
+      <a href="#" class="text-white link-secondary d-block float-start"><i class="bi bi-geo-alt-fill"></i></a>
+    </div>
   </div>
 </nav>
       </div>
       <div class=" col-2 col-sm-2 col-md-4 col-lg-4 col-xl-4">
-        <ul class="float-start d-none d-md-block">
-          <li class="d-inline-block ">
-            <a href="#" class="link-secondary">
-              <i class="bi bi-people-fill">
-              <span class="text-decoration-none d-xl-inline-block d-md-none mx-1">باشگاه مشتریان</span></i></a>
-          </li>
 
-          <li
-            class=" d-inline-block border border-secondary border-top-0 border-bottom-0 border-start-0 fs-3 d-lg-inline-block d-md-none mx-1">
-            <i class="bi bi-house-door-fill "></i></li>
-
-
-          <li class="d-inline-block border border-secondary border-top-0 border-bottom-0 fs-3 ">
-            <a href="#" class="text-decoration-none link-secondary mx-1 text-uppercase fs-6">faq</a>
-          </li>
-
-          <li class="d-inline-block "><a href="#" class="link-secondary"><i class="bi bi-geo-alt-fill"></i>
-            </a>
-          </li>
-        </ul>
+        <div class="float-start p-3 d-none d-md-block">
+          <a href="#" class=" link-secondary"><i class="bi bi-people-fill"></i></a>
+          <a href="#" class="link-secondary  ms-3"><span class="text-decoration-none d-xl-inline-block d-lg-none d-md-none d-sm-none"> باشگاه مشتریان</span></a>
+          <a href="#" class="link-secondary border border-secondary border-top-0 border-bottom-0  py-3 px-3 d-md-none d-lg-inline" ><i class="bi bi-house-door-fill fs-6"></i></a>
+          <a href="#" class="text-decoration-none link-secondary border border-secondary border-top-0 border-bottom-0 border-end-0 py-3 px-2">FAQ</a>
+          <a href="#" class="link-secondary p-2"><i class="bi bi-geo-alt-fill"></i></a>
+        </div>
       </div>
     </div>
   </div>
 
 
               <!-- MEGA MENU-->
-  <nav class="navbar navbar-expand-md bg-light ">
+  <nav class="navbar navbar-expand-md bg-white ">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">جدید ترین ها</a>
+            <a class="nav-link color-text-menu fw-bold" href="#">جدید ترین ها</a>
           </li>
           <li class="nav-item dropdown dropdown-mega position-static d-none d-sm-none d-md-block ">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"> آقایان</a>
+            <a class="nav-link color-text-menu fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"> آقایان</a>
             <div class="dropdown-menu">
               <div class="mega-content px-md-4">
                 <div class="container-fluid ">
-                  <div class="row"  style="font-size:12px;">
-                    <div class="d-none d-md-block  col-xl-half py-4 px-xl-5 px-4">
+                  <div class="row">
+                    <div class="d-none d-md-block  col-xl-half py-4 px-xl-5 px-4 ">
                        <div class="list-group text-end">
-                        <a class="list-group-item border-0 fw-bold" href="">کت مردانه</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کت پسرانه</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کیف و کوله</a>
-                        <a class="list-group-item border-0" href="">کیف اداری و فولدر</a>
-                        <a class="list-group-item border-0" href="">کیف کراس بادی</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کت مردانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کت پسرانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کیف و کوله</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کیف اداری و فولدر</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کیف کراس بادی</a>
                       </div>
                     </div>
 
                     <div class="d-none d-md-block col-lg-3 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                      <a class="list-group-item border-0" href="">کیف پاسپورتی</a>
-                      <a class="list-group-item border-0" href="">کوله پشتی</a>
-                      <a class="list-group-item border-0" href="">کیف کمری</a>
-                      <a class="list-group-item border-0" href="">کیف گردنی</a>
-                      <a class="list-group-item border-0" href="">ساک مسافرتی</a> 
+                      <a class="list-group-item color-text-menu border-0" href="">کیف پاسپورتی</a>
+                      <a class="list-group-item color-text-menu border-0" href="">کوله پشتی</a>
+                      <a class="list-group-item color-text-menu border-0" href="">کیف کمری</a>
+                      <a class="list-group-item color-text-menu border-0" href="">کیف گردنی</a>
+                      <a class="list-group-item color-text-menu border-0" href="">ساک مسافرتی</a> 
                       </div>
                     </div>
 
                     <div class="d-none d-md-block col-lg-3 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0 fw-bold" href="">کمربند</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کفش</a>
-                        <a class="list-group-item border-0" href="">کفش کلاسیک</a>
-                        <a class="list-group-item border-0" href="">کفش اسپورت</a>
-                        <a class="list-group-item border-0" href="">کفش کالج</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کمربند</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کفش</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کفش کلاسیک</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کفش اسپورت</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کفش کالج</a>
                       </div>
                     </div>
 
                     <div class="d-none d-lg-block col-lg-3 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0" href="">بوت و نیم بوت مردانه</a>
-                        <a class="list-group-item border-0" href="">صندل مردانه</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کیف پول</a>
-                        <a class="list-group-item border-0" href="">کیف کتی</a>
-                        <a class="list-group-item border-0" href="">کیف جیبی</a>
+                        <a class="list-group-item color-text-menu border-0" href="">بوت و نیم بوت مردانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">صندل مردانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کیف پول</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کیف کتی</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کیف جیبی</a>
                       </div>
                     </div>
 
                     <div class="d-none d-md-block col-lg-3 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0 fw-bold" href="">ست مردانه</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کلاه و دستکش مردانه</a>
-                        <a class="list-group-item border-0" href="">دستکش مردانه</a>
-                        <a class="list-group-item border-0" href="">کلاه مردانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">ست مردانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کلاه و دستکش مردانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">دستکش مردانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کلاه مردانه</a>
                       </div>
                     </div>
                   </div>
@@ -306,7 +343,7 @@
           </li>
 
           <li class="nav-item dropdown dropdown-mega position-static d-none d-sm-none d-md-block ">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"> خانم ها</a>
+            <a class="nav-link color-text-menu fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"> خانم ها</a>
             <div class="dropdown-menu">
               <div class="mega-content px-md-4">
                 <div class="container-fluid">
@@ -314,50 +351,50 @@
                     <div class="d-none d-md-block col-md-2 col-xl-half py-4 px-xl-5 px-4">
 
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0 fw-bold">کت زنانه</a>
-                        <a class="list-group-item border-0 fw-bold">کت دخترانه</a>
-                        <a class="list-group-item border-0 fw-bold">کیف وکوله زنانه</a>
-                        <a class="list-group-item border-0" href="">کیف دوشی</a>
-                        <a class="list-group-item border-0" href="">کیف اداری و فولدر زنانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold">کت زنانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold">کت دخترانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold">کیف وکوله زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کیف دوشی</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کیف اداری و فولدر زنانه</a>
                       </div>
                     </div>
 
                     <div class="d-none d-md-block col-md-2 col-lg-2 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                      <a class="list-group-item border-0" href="">کیف کمری</a>
-                      <a class="list-group-item border-0" href="">کوله پشتی زنانه</a>
-                      <a class="list-group-item border-0" href="">کیف کراس بادی زنانه</a>
-                      <a class="list-group-item border-0" href=""> کیف گردنی زنانه</a>
-                      <a class="list-group-item border-0" href="">کیف پاسپورتی زنانه</a> 
+                      <a class="list-group-item color-text-menu border-0" href="">کیف کمری</a>
+                      <a class="list-group-item color-text-menu border-0" href="">کوله پشتی زنانه</a>
+                      <a class="list-group-item color-text-menu border-0" href="">کیف کراس بادی زنانه</a>
+                      <a class="list-group-item color-text-menu border-0" href=""> کیف گردنی زنانه</a>
+                      <a class="list-group-item color-text-menu border-0" href="">کیف پاسپورتی زنانه</a> 
                       </div>
                     </div>
 
                     <div class="d-none d-md-block col-md-2 col-lg-2 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0" href="">کیف آرایشی</a>
-                        <a class="list-group-item border-0" href="">ساک مسافرتی زنانه</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کیف پول زنانه</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کفش زنانه</a>
-                        <a class="list-group-item border-0" href="">کفش مجلسی</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کیف آرایشی</a>
+                        <a class="list-group-item color-text-menu border-0" href="">ساک مسافرتی زنانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کیف پول زنانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کفش زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کفش مجلسی</a>
                       </div>
                     </div>
 
                     <div class="d-none d-md-block col-md-2 col-lg-2 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0" href="">کفش اسپورت زنانه</a>
-                        <a class="list-group-item border-0" href="">کفش کالج زنانه</a>
-                        <a class="list-group-item border-0" href="">بوت و نیم بوت زنانه</a>
-                        <a class="list-group-item border-0" href="">صندل زنانه</a>
-                        <a class="list-group-item border-0 fw-bold" href="">کمربند زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کفش اسپورت زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کفش کالج زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">بوت و نیم بوت زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">صندل زنانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">کمربند زنانه</a>
                       </div>
                     </div>
 
                     <div class="d-none d-md-block col-md-2 col-lg-2 col-xl-half py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0 fw-bold">کلاه و دستکش زنانه</a>
-                        <a class="list-group-item border-0" href="">دستکش زنانه</a>
-                        <a class="list-group-item border-0" href="">کلاه زنانه</a>
-                        <a class="list-group-item border-0 fw-bold">ست زنانه</a> 
+                        <a class="list-group-item color-text-menu border-0 fw-bold">کلاه و دستکش زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">دستکش زنانه</a>
+                        <a class="list-group-item color-text-menu border-0" href="">کلاه زنانه</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold">ست زنانه</a> 
                       </div>
 
                     </div>
@@ -369,18 +406,18 @@
 
 
           <li class="nav-item dropdown dropdown-mega position-static d-none d-md-block ">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"> لوازم جانبی</a>
+            <a class="nav-link color-text-menu fw-bold " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"> لوازم جانبی</a>
             <div class="dropdown-menu">
               <div class="mega-content px-md-4">
                 <div class="container-fluid">
                   <div class="row">
                     <div class="d-none d-md-block col-12 py-4 px-xl-5 px-4">
                       <div class="list-group text-end">
-                        <a class="list-group-item border-0 fw-bold" href="">جلد دسته چک</a>
-                        <a class="list-group-item border-0 fw-bold" href="">جلد مدارک</a>
-                        <a class="list-group-item border-0 fw-bold" href="">جا کلیدی</a>
-                        <a class="list-group-item border-0 fw-bold" href=""> جا کارتی</a>
-                        <a class="list-group-item border-0 fw-bold" href=""> واکس</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">جلد دسته چک</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">جلد مدارک</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href="">جا کلیدی</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href=""> جا کارتی</a>
+                        <a class="list-group-item color-text-menu border-0 fw-bold" href=""> واکس</a>
                       </div>
                     </div>
                   </div>
@@ -389,17 +426,17 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">چرم بلاگ</a>
+            <a class="nav-link color-text-menu fw-bold" href="#">چرم بلاگ</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="#">بسته بندی سفارش</a>
+            <a class="nav-link color-text-menu fw-bold" href="#">بسته بندی سفارش</a>
           </li>
-
         </ul>
       </div>
     </div>
   </div>
+
 </nav>
 
 
