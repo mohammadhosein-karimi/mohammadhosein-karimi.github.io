@@ -197,7 +197,7 @@
 @media all and (min-width:575px) and (max-width:767px){
     
 .custom-padding-ads{
-    padding: 0px 25px 0px 25px;
+    padding: 0px 40px 0px 0px;
 }
     .card-body-custom{
            font-size: 10px;
@@ -261,7 +261,7 @@
     
     
 .custom-padding-ads{
-    padding: 0px 25px 0px 25px;
+    padding: 0px 40px 0px 1px;
 }
 
 .padding-menu{
@@ -320,7 +320,7 @@
      
     
 .custom-padding-ads{
-    padding: 0px 25px 0px 25px;
+    padding: 0px 40px 0px 0px;
 }
 .padding-menu{
     padding-left: 20px;
@@ -376,7 +376,7 @@
 @media all and (min-width:1200px) and (max-width:1399px){
    
 .custom-padding-ads{
-    padding: 0px 25px 0px 45px;
+    padding: 0px 40px 0px 16px;
 }
 
 .padding-menu{
@@ -438,7 +438,7 @@
 
     
 .custom-padding-ads{
-    padding: 0px 25px 0px 45px;
+    padding: 0px 40px 0px 25px;
 }
 .padding-menu{
     padding-left: 20px;
