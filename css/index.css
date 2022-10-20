@@ -64,9 +64,7 @@
     padding-bottom: 0px;
 }
 
-.custom-padding-slider-blog{
-   padding: 50px 50px;
-}
+
 .date-slider{
     background: #bfbfbf;
     position: absolute;
@@ -82,7 +80,7 @@
     position: relative;
     width: 20%;
     height: 80%;
-    left: 5%;
+    left: 10%;
     opacity: 0.08;
 
 }
@@ -100,11 +98,14 @@
 
 .background-location{
     background-image:url("../images/background-location.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 120px 0px;
 }
 .background-link{
     background-color: #58595B;
-    width: 50px;
+   
 }
 .border-footer-search-bar{
     border-top: 2px solid #fafafa;
