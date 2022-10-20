@@ -108,6 +108,10 @@
    background-color: white;
    color: black !important;
 }
+.dropdown-mega .dropdown-menu{
+    width: 100%;
+}
+
 @media all and (min-width:768px){
         #button-slider1 li{
             width: 40px;
