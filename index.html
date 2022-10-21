@@ -48,7 +48,7 @@
                               <i class="bi bi-search "></i>
                             </button>
                           </a> 
-                          <a class="text-decoration-none color-text-custom-2" href="">ورود/عضویت</a>
+                          <a class="text-decoration-none color-text-custom-2 " id="link-hover"  href="">ورود/عضویت</a>
                         </div>
                       </div>
                       <div class="col-8 d-md-none">
@@ -91,12 +91,12 @@
                                 <i class="bi bi-basket3-fill"></i>
                               </button>
                             </a>
-                              <a class="text-decoration-none link-dark" href="#">
+                              <a class="text-decoration-none link-dark"  href="#">
                               <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2"aria-controls="offcanvasRight2">
                                 <i class="bi bi-search "></i>
                               </button>
                             </a>
-                            <a class="text-decoration-none color-text-custom-2" href="">ورود/عضویت</a>
+                            <a class="text-decoration-none color-text-custom-2" id="link-hover" href="">ورود/عضویت</a>
                           </div>
                         </div>
                         <div class="col-8 d-md-none">
@@ -115,12 +115,12 @@
                 <div class="offcanvas-body">
                   <form>
                     <div id="icon-search">
-                    <input class=" font-size-normal-text w-75 border-end-0 border-start-0 border-top-0"   type="text" placeholder="جستجو کنید..." aria-label="Search">
+                    <input class=" font-size-normal-text w-75 border-end-0 border-start-0 border-top-0"  type="text" placeholder="جستجو کنید..." aria-label="Search">
                     </div>
                 </form>
                 </div>
               </div>
-              <a class="text-decoration-none color-text-custom-2 d-none d-sm-none d-md-inline-block" href="">ورود/عضویت</a>
+              <a class="text-decoration-none color-text-custom-2 d-none d-sm-none d-md-inline-block" href="" id="link-hover">ورود/عضویت</a>
             </a>
         </div>
       </div>
@@ -486,13 +486,17 @@
 
 
 
-  <div class="container-fluid custom-padding ">
+  <div class="container-fluid custom-padding mb-4 ">
     <div class="row m-0 ">
-      <div class="col-12 col-sm-12 col-lg-9 col-md-9 col-xl-9 col-xxl-9"><img class="img-fluid "src="images/reduction.jpg" alt=""></div>
+      <div class="col-12 col-sm-12 col-lg-9 col-md-9 col-xl-9 col-xxl-9">
+        <a href=""><img class="img-fluid  "src="images/reduction.jpg" title="تخفیف پاییزه" alt=""></a>
+        
+      </div>
+
       <div class="col-12 col-sm-12 col-lg-3 col-md-3 col-xl-3 col-xxl-3">
         <div class="d-block">
-          <a href=""><img class="img-fluid" src="images/tipax.gif" alt=""></a>
-          <a href=""><img class="img-fluid" src="images/deliver.jpg" alt=""></a>
+          <a href=""><img class="img-fluid" src="images/tipax.gif" title="تیپاکس" alt=""></a>
+          <a href=""><img class="img-fluid" src="images/deliver.jpg" title="ارسال فوری" alt=""></a>
         </div>
       </div>
     </div>
@@ -507,10 +511,10 @@
               <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2 my-auto">
                 <h2 class="text-center text-white">پیشنهاد<br> روز</h2>
                 <ul class=" text-center" id="button-slider1">
-                  <li class=" fs-3 text-center list-unstyled d-inline-block bg-white rounded-3 "><i class="bi bi-chevron-right"></i></li>
-                  <li class=" fs-3 text-center list-unstyled d-inline-block bg-white rounded-3 "><i class="bi bi-chevron-left"></i></li>
+                  <li class=" fs-3 text-center list-unstyled d-inline-block bg-white rounded-3 "><a href=""><i class="bi bi-chevron-right"></i></li></a>
+                  <li class=" fs-3 text-center list-unstyled d-inline-block bg-white rounded-3 "><a href=""><i class="bi bi-chevron-left"></i></li></a>
                 </ul>
-                <div class="text-center mt-5"><button type="button" class="btn btn-danger border border-white rounded-5 p-3" >  همه پیشنهاد ها<i class="bi bi-chevron-left me-1"></i></button></div>
+                <div class="text-center mt-5"><button type="button" class="btn btn-danger border border-white rounded-5 p-3" id="button-reduction" >  همه پیشنهاد ها<i class="bi bi-chevron-left me-1"></i></button></div>
               </div>
               
               <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2 mb-3">
@@ -679,7 +683,7 @@
   <div class="container-fluid">
     <div class="row m-0 custom-padding">
       <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 col-xxl-1  p-xxl-0 p-xl-0 p-lg-0 ">
-        <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کت مردانه</div>
+        <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کت زنانه</div>
       </div>
       <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 order-lg-2 order-xl-2 order-xxl-2">
         <a class="text-decoration-none link-dark float-start color-text-custom p-xxl-3 " id="button-observe-all" href="">مشاهده همه<i class="bi bi-chevron-left"></i></a></div>
@@ -777,7 +781,7 @@
        <div class="container-fluid">
         <div class="row m-0 custom-padding">
           <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 col-xxl-1  p-xxl-0 p-xl-0 p-lg-0 ">
-            <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کت مردانه</div>
+            <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کیف دوشی</div>
           </div>
           <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 order-lg-2 order-xl-2 order-xxl-2">
             <a class="text-decoration-none link-dark float-start color-text-custom p-xxl-3 " id="button-observe-all" href="">مشاهده همه<i class="bi bi-chevron-left"></i></a></div>
@@ -858,12 +862,12 @@
      <!-- 5th slider-->
      <div class="container-fluid">
       <div class="row m-0 custom-padding">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 col-xxl-1  p-xxl-0 p-xl-0 p-lg-0 ">
-          <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کت مردانه</div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 col-xxl-2  p-xxl-0 p-xl-0 p-lg-0 ">
+          <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > بوت و نیم بوت زنانه</div>
         </div>
         <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 order-lg-2 order-xl-2 order-xxl-2">
           <a class="text-decoration-none link-dark float-start color-text-custom p-xxl-3 " id="button-observe-all" href="">مشاهده همه<i class="bi bi-chevron-left"></i></a></div>
-        <div class="text-end col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9 order-lg-1 order-xl-1 order-xxl-1  px-lg-3 px-xxl-1">
+        <div class="text-end col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-8 order-lg-1 order-xl-1 order-xxl-1  px-lg-3">
             <ul class="text-xl-end text-xxl-end text-lg-end text-md-center text-sm-center text-center pe-0">
             <li class="list-unstyled text-center d-inline-block color-text-custom color-text-custom " id="link-menu"> <a class="pb-2 text-decoration-none border border-danger border-bottom border-end-0 border-top-0 border-start-0" href="">جدید ترین ها</a></li>
             <li class="list-unstyled text-center d-inline-block color-text-custom color-text-custom "> <a class="pb-2 link-secondary mx-2 text-decoration-none border border-danger border-bottom border-end-0 border-top-0 border-start-0" href="">پر فروش ترین ها</a></li>
@@ -941,7 +945,7 @@
       <div class="container-fluid">
         <div class="row m-0 custom-padding">
           <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 col-xxl-1  p-xxl-0 p-xl-0 p-lg-0 ">
-            <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کت مردانه</div>
+            <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کفش کالج</div>
           </div>
           <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 order-lg-2 order-xl-2 order-xxl-2">
             <a class="text-decoration-none link-dark float-start color-text-custom p-xxl-3 " id="button-observe-all" href="">مشاهده همه<i class="bi bi-chevron-left"></i></a></div>
@@ -1022,12 +1026,12 @@
     <!-- 7th slider-->
     <div class="container-fluid">
       <div class="row m-0 custom-padding">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 col-xxl-1  p-xxl-0 p-xl-0 p-lg-0 ">
-          <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0 px-xxl-2 ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > کت مردانه</div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 col-xxl-2  p-xxl-0 p-xl-0 p-lg-0 ">
+          <div class="d-inline-block font-header-title border border-1 border-secondary border-bottom-0 border-top-0 border-end-0  ps-xl-2 pe-xl-1 ps-md-1 ps-sm-2 ps-2 " > بوت و نیم بوت مردانه</div>
         </div>
         <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 order-lg-2 order-xl-2 order-xxl-2">
           <a class="text-decoration-none link-dark float-start color-text-custom p-xxl-3 " id="button-observe-all" href="">مشاهده همه<i class="bi bi-chevron-left"></i></a></div>
-        <div class="text-end col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9 order-lg-1 order-xl-1 order-xxl-1  px-lg-3 px-xxl-1">
+        <div class="text-end col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-8 order-lg-1 order-xl-1 order-xxl-1 px-lg-3 px-xxl-1">
             <ul class="text-xl-end text-xxl-end text-lg-end text-md-center text-sm-center text-center pe-0">
             <li class="list-unstyled text-center d-inline-block color-text-custom color-text-custom " id="link-menu"> <a class="pb-2 text-decoration-none border border-danger border-bottom border-end-0 border-top-0 border-start-0" href="">جدید ترین ها</a></li>
             <li class="list-unstyled text-center d-inline-block color-text-custom color-text-custom "> <a class="pb-2 link-secondary mx-2 text-decoration-none border border-danger border-bottom border-end-0 border-top-0 border-start-0" href="">پر فروش ترین ها</a></li>
