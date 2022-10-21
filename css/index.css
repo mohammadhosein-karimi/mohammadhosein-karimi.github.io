@@ -111,6 +111,85 @@
     border-top: 2px solid #fafafa;
     border-bottom: 2px solid #fafafa;
 }
+
+
+
+
+#link-menu a:first-child{
+    color: red!important;
+    transition: all 0.3s linear;
+}
+
+#button-observe-all:hover{
+    color: red!important;
+    transition: all 0.3s linear;
+}
+
+
+#footer-submit:hover{
+    background-color: red!important;
+    transition: all 0.25s linear;
+}
+#list-footer ul li a:hover{
+    color: red!important;
+    transition: all 0.3s linear;
+}
+#last-list-footer li:hover{
+    border: 1px solid #888888b2;
+    transition: all 0.3s linear;
+    cursor: default;
+}
+#last-list-footer li{
+    border-radius: 2px;
+}
+
+#right-of-header button:hover{
+    color: rgb(255, 0, 0);
+    transition: all 0.3s linear;
+}
+#left-of-header i:hover {
+    color: rgb(255, 0, 0);
+    transition: all 0.3s linear;
+}
+#left-of-header span:hover {
+    color: rgb(255, 0, 0);
+    transition: all 0.3s linear;
+}
+.list-group-item:hover{
+    color: rgb(255, 0, 0)!important;
+    transition: all 0.3s linear;
+}
+.nav-link:hover{
+    color: rgb(0, 0, 0)!important;
+    transition: all 0.3s linear;
+}
+.card img:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.2s linear;
+    
+}
+.card img:hover .card a{
+    color: rgb(255, 0, 0)!important;
+    transition: all 0.3s linear;
+}
+#slider-blog img:hover{
+    transform: none;
+}
+
+.button-left-slider:hover{
+    background-color: #f2f4f4;
+    transition: all 0.3s linear;
+    color: #000000;
+}
+
+
+.button-right-slider:hover{
+    background-color: #f2f4f4;
+    transition: all 0.3s linear;
+    color: #000000;
+}
+
 #menu-offcanvas ul li a {
     background-color: #b17070 !important;
 }
@@ -150,7 +229,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
-    left: 0px;
+    left: 10px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 0px 5px rgb(0 0 0 / 16%);
     background-color: #ffffff;
@@ -162,6 +241,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
+    right: 10px;
     border-radius: 10px 0px 0px 10px;
     box-shadow:-3px 0px 5px rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
@@ -213,7 +293,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
-    left: 0px;
+    left: 10px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 0px 5px rgb(0 0 0 / 16%);
     background-color: #ffffff;
@@ -225,6 +305,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
+    right: 10px;
     border-radius: 10px 0px 0px 10px;
     box-shadow:-3px 0px 5px rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
@@ -259,7 +340,13 @@
 }
 }
 @media all and (min-width:768px) and (max-width:991px){
-    
+    .dropdown:hover .dropdown-menu{
+        display: inline-block;
+        position: absolute;
+        right: 0%;
+      
+       
+    }
     
 .custom-padding-ads{
     padding: 0px 40px 0px 1px;
@@ -282,7 +369,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
-    left: 0px;
+    left: 10px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 0px 5px rgb(0 0 0 / 16%);
     background-color: #ffffff;
@@ -294,6 +381,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
+    right: 10px;
     border-radius: 10px 0px 0px 10px;
     box-shadow:-3px 0px 5px rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
@@ -318,8 +406,12 @@
 }
 
 @media all and (min-width:992px) and (max-width:1199px){
-     
-    
+    .dropdown:hover .dropdown-menu{
+        display: inline-block;
+        position: absolute;
+        right: 0%;
+
+    }
 .custom-padding-ads{
     padding: 0px 40px 0px 0px;
 }
@@ -339,7 +431,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
-    left: 0px;
+    left: 10px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 0px 5px rgb(0 0 0 / 16%);
     background-color: #ffffff;
@@ -351,6 +443,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
+    right: 10px;
     border-radius: 10px 0px 0px 10px;
     box-shadow:-3px 0px 5px rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
@@ -375,7 +468,13 @@
 }
 
 @media all and (min-width:1200px) and (max-width:1399px){
-   
+    .dropdown:hover .dropdown-menu{
+        display: inline-block;
+        position: absolute;
+        right: 0%;
+      
+       
+    }
 .custom-padding-ads{
     padding: 0px 40px 0px 16px;
 }
@@ -399,7 +498,7 @@
         width: 50px;
         height: 50px;
         top: 40%;
-        left: 18px;
+        left:28px;
         border-radius: 0px 10px 10px 0px;
         box-shadow: 3px 0px 5px rgb(0 0 0 / 16%);
         background-color: #ffffff;
@@ -411,6 +510,7 @@
         width: 50px;
         height: 50px;
         top: 40%;
+        right: 10px;
         border-radius: 10px 0px 0px 10px;
         box-shadow:-3px 0px 5px rgba(0, 0, 0, 0.16);
         background-color: #ffffff;
@@ -436,6 +536,11 @@
 }
 
 @media all and (min-width:1400px){
+.dropdown:hover .dropdown-menu{
+        display: inline-block;
+        position: absolute;
+        right: 0%;
+    }
 
     
 .custom-padding-ads{
@@ -462,7 +567,7 @@
     width: 50px;
     height: 50px;
     top: 40%;
-    left: 20px;
+    left: 30px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 0px 5px rgb(0 0 0 / 16%);
     background-color: #ffffff;
@@ -473,6 +578,7 @@
 .button-right-slider{
     width: 50px;
     height: 50px;
+    right: 10px;
     top: 40%;
     border-radius: 10px 0px 0px 10px;
     box-shadow:-3px 0px 5px rgba(0, 0, 0, 0.16);
