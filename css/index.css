@@ -31,6 +31,8 @@
 .redius-reduction{
     font-size: 12px;
     padding: 6px;
+    top: 5px;
+    right: 5px;
 }
 .remove-border-and-border-redius{
     border-radius: 0;
