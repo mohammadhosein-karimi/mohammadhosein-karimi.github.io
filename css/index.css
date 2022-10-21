@@ -19,6 +19,9 @@
     transition: all 0.3s linear;
 
 }
+#background-footer-navbar{
+    background-color: #2f2f2f;
+}
 .color-basket-icon{
     color: #aaaaaa;
 }
@@ -294,6 +297,10 @@
     left: 0px;
     top: 0px;
 }
+.nav-link:hover{
+    color: white !important;
+    transition: none;
+}
 
 .size-form{
     width: 100%;
@@ -304,6 +311,10 @@
 @media all and (min-width:575px) and (max-width:767px){
     .offcanvas{
         --bs-offcanvas-width: 767px;
+    }
+    .nav-link:hover{
+        color: white !important;
+        transition: none;
     }
 .custom-padding-ads{
     padding: 0px 40px 0px 0px;
